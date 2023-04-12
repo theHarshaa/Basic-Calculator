@@ -10,7 +10,7 @@ body{
 }
 
 .calculator-grid{
-    position: relative;
+    position: absolute;
     display: grid;
     justify-content: center;
     align-content: center;
