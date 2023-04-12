@@ -59,9 +59,3 @@ body{
 }
 
 
-
-@media (max-width:480px){
-    body{
-        background: #00AAFF;
-    }
-}
