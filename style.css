@@ -7,17 +7,19 @@
 body{
     padding: 0;
     margin: 0;
+    background: linear-gradient(to right,#00AAFF,#df1dbe);
+    background-size:  cover;
 }
 
 .calculator-grid{
-    position: absolute;
+    position: sticky;
     display: grid;
     justify-content: center;
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4,100px);
     grid-template-rows: minmax(120px,auto) repeat(5,100px);
-    box-shadow: 20px 20px 50px 10px pink inset;
+    box-shadow: 20px 20px 50px 10px grey;
 }
 
 .calculator-grid>button{
@@ -58,4 +60,8 @@ body{
     font-size: 2.5rem;
 }
 
-
+@media (max-width:480px){
+    body{
+        background: #00AAFF;
+    }
+}
